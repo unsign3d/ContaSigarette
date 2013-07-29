@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ContaSigarette</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_1">Oggi hai fumato </string>
+    <string name="title_2">sigarette</string>
+    <string name="add_cygarette">Aggiungi sigaretta</string>
+    <string name="history">Vai al grafico</string>
+    <string name="title_activity_graph">Grafico</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
