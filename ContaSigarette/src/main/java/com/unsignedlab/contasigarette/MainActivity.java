@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
         }
 
         this.mTitle = (TextView)findViewById(R.id.innerText);
-        this.mTitle.setText(" "+String.valueOf(mNCy)+ " ");
+        this.mTitle.setText("Oggi hai fumato "+String.valueOf(mNCy)+ " "+((mNCy != 1) ? "sigarette" : "sigaretta"));
 
     }
 
@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
 
     public void addCygarette(View arg0){
         this.mNCy++;
-        this.mTitle.setText(String.valueOf(mNCy));
+        this.mTitle.setText("Oggi hai fumato "+String.valueOf(mNCy)+ " "+((mNCy != 1) ? "sigarette" : "sigaretta"));
     }
 
     public void gotoGraph(View arg0){
