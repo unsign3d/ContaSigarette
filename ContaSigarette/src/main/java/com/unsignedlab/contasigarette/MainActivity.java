@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
             editor.commit();
         }
 
-        this.mTitle = (TextView)findViewById(R.id.innerText);
+        this.mTitle = (TextView)findViewById(R.id.title);
         this.mTitle.setText("Oggi hai fumato "+String.valueOf(mNCy)+ " "+((mNCy != 1) ? "sigarette" : "sigaretta"));
 
     }
