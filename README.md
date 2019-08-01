@@ -1,3 +1,6 @@
+# Questo progetto non è più mantenuto
+
+
 ContaSigarette
 ==================
 
